@@ -1,6 +1,6 @@
 #!/bin/bash
 # Runs `npm install` whenever `package.json` changes.
-# NOTE: `npm install` runs `bower install`.
+# NOTE: We assume `npm install` runs `bower install`.
 # Runs `bower install` whenever `bower.json` changes
 set -e
 
