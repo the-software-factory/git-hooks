@@ -10,7 +10,7 @@ with_refs=0
 
 check_commits() {
     range=$1
-    commit=`git rev-list -n 1 --grep '^[A-Z]\{2,\}-[0-9]\+:' --invert-grep --since 01-09-2016 --no-merges "$range"`
+    commit=`git rev-list -n 1 --grep '^[A-Z]\{2,\}-[0-9]\+:' --invert-grep --since 2016-09-01 --no-merges "$range"`
     if [ -n "$commit" ]
     then
         echo >&2 "Found commit with wrong message format in $commit, not pushing."
