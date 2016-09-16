@@ -1,6 +1,6 @@
 {
-  "name": "hook-install-on-updates",
-  "description": "Ensure the git index is clean and that there are no untracked files or directories.",
+  "name": "git-hooks",
+  "description": "A collection of useful git hooks for angularJS repositories",
   "version": "0.1.0",
   "author": {
     "name": "Stronati Andrea",
@@ -14,22 +14,23 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/the-software-factory/hook-install-on-updates.git"
+    "url": "git://github.com/the-software-factory/git-hooks.git"
   },
   "bugs": {
-    "url": "https://github.com/the-software-factory/hook-install-on-updates/issues"
+    "url": "https://github.com/the-software-factory/git-hooks/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/the-software-factoryhook-install-on-updates/blob/master/LICENSE-MIT"
+      "url": "https://github.com/the-software-factory/git-hooks/blob/master/LICENSE.md"
     }
   ],
   "license": "MIT",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 4.0.0"
   },
   "keywords": [
-    "gruntplugin"
+    "git",
+    "hooks"
   ]
 }
