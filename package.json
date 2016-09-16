@@ -1,7 +1,7 @@
 {
   "name": "git-hooks",
   "description": "A collection of useful git hooks for angularJS repositories",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Stronati Andrea",
     "email": "astronati@vendini.com"
