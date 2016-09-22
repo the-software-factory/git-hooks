@@ -4,7 +4,7 @@
 #
 # For a complete documentation see https://git-scm.com/docs/githooks
 
-PROTECTED_BRANCHES="^(master|devel)"
+PROTECTED_BRANCHES="^(master|devel)$"
 z40=0000000000000000000000000000000000000000
 with_refs=0
 
