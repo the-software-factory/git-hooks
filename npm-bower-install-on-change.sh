@@ -4,6 +4,8 @@
 # Runs `bower install` whenever `bower.json` changes
 set -e
 
+unset GIT_WORK_TREE
+
 # Install all dependencies
 # $1 is the name of the JSON file containing dependencies
 updateDependencies () {
